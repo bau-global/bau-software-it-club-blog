@@ -1,6 +1,13 @@
 module.exports = {
   plugins: [
     {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: '',
+        head: true,
+      }
+    },
+    {
       resolve: `gatsby-theme-blog`,
       options: {},
     },
