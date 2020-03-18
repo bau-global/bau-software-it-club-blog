@@ -7,10 +7,10 @@ import { Styled } from "theme-ui"
 
 export default () => (
   <Fragment>
-    This is where <Styled.a href="http://example.com/">your name</Styled.a>
+    Bu sayfa <Styled.a href="https://bau.edu.tr">BAU</Styled.a>
     {` `}
-    goes.
+    yazılım ve bilişim kulübü
     <br />
-    Or whatever, you make the rules.
+    etkinliklerinin paylaşıldıği bir blogtur.
   </Fragment>
 )
