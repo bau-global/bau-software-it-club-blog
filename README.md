@@ -1,39 +1,70 @@
-<p align="center">
-  <a href="https://www.gatsbyjs.org">
-    <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
-  </a>
-</p>
 <h1 align="center">
-  Starter for the official Gatsby blog theme
+  Bahçeşehir University Software and IT Club Blog Page
 </h1>
 
-Quickly get started using the Gatsby blog theme! This starter creates a new Gatsby site that is preconfigured to work with the [official Gatsby blog theme](https://www.npmjs.com/package/gatsby-theme-blog).
+## 🚀 Quick start to adding a new Event
 
-## 🚀 Quick start
+1.  **Fork this project**
 
-1.  **Create a Gatsby site.**
+2.  **Clone to your local**
 
-    Use the Gatsby CLI to create a new site, specifying the blog theme starter.
-
-    ```shell
-    # create a new Gatsby site using the blog theme starter
-    gatsby new my-themed-blog https://github.com/gatsbyjs/gatsby-starter-blog-theme
-    ```
-
-2.  **Start developing.**
-
-    Navigate into your new site’s directory and start it up.
-
-    ```shell
-    cd my-themed-blog/
-    gatsby develop
-    ```
+    You may use `GitHub Desktop` Application
 
 3.  **Open the code and start customizing!**
 
+    You may use `Visual Studio Code`
+
+4. **Instal dependencies first**
+
+    ```shell
+    yarn install
+    ```
+
+5. **Run blog**
+
+    ```shell
+    gatsby develop
+    ```
+
     Your site is now running at `http://localhost:8000`!
 
-    To get started, check out the guide to [using the Gatsby blog theme starter](https://gatsbyjs.org/docs/themes/using-a-gatsby-theme), or the longer, [more detailed tutorial](https://gatsbyjs.org/tutorial/using-a-theme).
+    `CTRL + Click` to see it on a browser.
+
+6. **Add a new Event**
+  Create a file with `seo-friendly name` and `.mdx` extension to this path `content > posts`.
+
+7. **If you cannot see the latest added mdx on localhost**
+
+  Run these commands
+
+    ```shell
+    gatsby clean
+    ```
+
+    then
+
+    ```shell
+    gatsby build
+    ```
+
+    then
+
+    ```shell
+    gatsby develop
+    ```
+
+8. **How to publish?**
+Commit and push the changes to your repository. Then Create a Pull Request to Original Repository. When the Contributers Accepts your PR then it will publish on the website.
+
+<br/>
+
+<p align="center">
+  <a href="https://www.gatsbyjs.org">
+    <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="30" />
+  </a>
+</p>
+
+<br/>
 
 ## 🧐 What's inside?
 
@@ -46,7 +77,7 @@ gatsby-starter-blog-theme
 │   │   └── avatar.png
 │   └── posts
 │       ├── hello-world.mdx
-│       └── my-second-post.mdx
+│       └── other-event-names.mdx
 ├── src
 │   └── gatsby-theme-blog
 │       ├── components
@@ -80,18 +111,6 @@ gatsby-starter-blog-theme
 
 9.  **`README.md`**: A text file containing useful reference information about your project.
 
-## 🎓 Learning Gatsby
+## License
 
-Looking for more guidance? Full documentation for Gatsby lives [on the website](https://www.gatsbyjs.org/).
-
-Here are some places to start:
-
-### Themes
-
-- To learn more about Gatsby themes specifically, we recommend checking out the [theme docs](https://www.gatsbyjs.org/docs/themes/).
-
-### General
-
-- **For most developers, we recommend starting with our [in-depth tutorial for creating a site with Gatsby](https://www.gatsbyjs.org/tutorial/).** It starts with zero assumptions about your level of ability and walks through every step of the process.
-
-- **To dive straight into code samples, head [to our documentation](https://www.gatsbyjs.org/docs/).** In particular, check out the _Reference Guides_ and _Gatsby API_ sections in the sidebar.
+[MIT](LICENSE.md)
